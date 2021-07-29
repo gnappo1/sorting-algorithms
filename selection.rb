@@ -10,7 +10,6 @@ def selection_sort(array)
             end
         end
         arr[i], arr[min_index] = arr[min_index], arr[i]  #swap elements
-        puts arr[i]
     end
     arr
  end
